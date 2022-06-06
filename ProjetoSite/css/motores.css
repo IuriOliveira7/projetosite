@@ -1,0 +1,218 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #0B3A8A;
+    font-size: 16px;
+    background: #ffffff;
+    
+}
+
+main.cards {
+    display: flex;
+    padding: 32px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 14px;
+    max-height: 468px;
+    margin-left: 32px;
+    
+    
+}
+
+main.cards section.card:first-child {
+    margin-left: 43px;
+}
+
+main.cards section.card .icon {
+    width: 186px;
+    height: 147px;
+}
+
+main.cards section.card img {
+    width: 135px;
+}
+
+main.cards section.card h3 {
+    font-size: 95%;
+    margin: 16px 0;
+}
+
+main.cards section.card span {
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 80%;
+    margin-bottom: 16px;
+    text-align: justify;
+}
+
+main.cards section.card button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+main.cards section.card.contact button {
+    background: linear-gradient(to right, #175ace, #0B3A8A);
+}
+main.cards section.card.shop button {
+    background: linear-gradient(to right, #175ace, #0B3A8A);
+}
+
+
+
+@media screen and (max-width: 720px) {
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards section.card:last-child {
+        margin-bottom: 0;
+    }
+
+    main.cards section.card button {
+        font-size: 70%;
+    }
+
+}
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.icon {
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .icon:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+  hr{
+    height: 2px;
+    display: block;
+    margin: 15px auto 30px;
+    width: 30px;
+    background: #ffffff;
+    box-sizing: content-box;
+    border-top: 1px solid #eee;
+    border: 0;
+}
+  
+p{
+    font-size: 15px;
+    text-align: center;
+    padding-right: 139px;
+    padding-left: 139px;
+    color: #ffffff;
+}
+
+.divtitulo{
+    margin-right: auto;
+    margin-left: auto;
+    width: 970px;
+}
+
+.sectitulo{
+    background: #EEE;
+    padding: 26px 0;
+    background: url('../img/img_motores/capa-motores2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+@media screen and (min-width: 800px) {
+    .sectitulo {
+      width: 100%; 
+    }
+    .divtitulo {
+        width: 100%;
+        padding: 22px; 
+      }
+
+  }
+  @media screen and (min-width: 500px) {
+    .sectitulo {
+      width: 100%; 
+    }
+    .divtitulo {
+        width: 100%;
+        padding: 22px; 
+      }
+
+
+  }
+  @media screen and (min-width: 300px) {
+    .sectitulo {
+      width: 100%; 
+    }
+    .divtitulo {
+        width: 100%; 
+        padding: 22px;
+
+      }
+
+  }
+  @media screen and (max-width: 600px) {
+    p{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .titulo {
+        font-size: 39px;
+      }
+  }
+
+
+
+
+/*.sectitulo{
+    background: url('../img/img_motores/capa-motores.png');
+    padding: 50px 0;
+    background-size: 1369px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}*/

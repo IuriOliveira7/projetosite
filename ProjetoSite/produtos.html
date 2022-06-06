@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo"><img class="imglogo" src="img/LOGO CVK.png"></div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li><a href="carregamento/homec.html" class="ahome">HOME</a></li>
+            <li><a href="/" class="ahome">SOBRE A CVK</a></li>
+            <li class="services">
+              <a href="carregamento/produtosc.html" class="ahome">PRODUTOS</a>
+              <!-- DROPDOWN MENU 
+              <ul class="dropdown">
+                <li><a href="/">AUTOMAÇÃO </a></li>
+                <li><a href="/">MOTORES</a></li>
+              </ul>-->
+            </li>
+            <li><a href="/" class="ahome">CONTATO</a></li>
+          </div>
+        </ul>
+      </nav>
+      <div id="linha"></div>
+
+    <!--####################################################################-->
+
+    <main class="cards">
+        <section class="card contact">
+            <div class="icon">
+                <img src="img/MOTORES.png" alt="Contact us.">
+            </div>
+            <h3>Motores Elétricos</h3>
+            <span>O Motor elétrico Weg é o mais importante item de uso final de energia elétrica no país, tendo uma enorme participação no setor industrial. No Brasil, a quantidade de energia que os motores elétricos Weg geram é de aproximadamente 60% da energia elétrica total consumida no país.</span>
+            <form method="get" action="carregamento/motoresc.html"><button>Saiba mais..</button></form>
+        </section>
+
+        <section class="card shop">
+            <div class="icon">
+                <img src="img/AUTOMACAO.png" alt="Shop here.">
+            </div>
+            <h3>Automação e Controle Industrial</h3>
+            <span>Desenvolvida para melhorar os processos produtivos e aumentar a competitividade dos nossos clientes, a linha de automação e controle industrial oferece soluções de alto desempenho, confiabilidade e alta tecnologia.</span>
+            <form method="get" action="/"><button>Saiba mais..</button></form>
+        </section>
+    </main>
+    <h3>Automação e Controle Industrial</h3>
+
+    <footer>
+      <h3 class="h3footer">CVK Representações © 2022</h3>
+  </footer>
+
+</body>
+
+</html>
